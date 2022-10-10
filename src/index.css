@@ -1,0 +1,91 @@
+
+
+/* This is a global CSS for the whole website */
+
+*,:root{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  /* all variables */
+  /* color variables */
+  --white: #fff;
+  --black: #000;
+
+  --primary: #ec775f;
+  --secondary: #382314;
+}
+body{
+  width: 100vw;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+a{
+  text-decoration: none;
+  color: var(--secondary);
+}
+a:hover{
+  cursor: pointer;
+  display: flex;
+  transform: scale(1.04);
+  color: var(--white);
+  transition-duration: .3s;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vmin 3vmin;
+  width: 100vw;
+  background-color: var(--primary);
+  color: var(--secondary);
+  position: sticky;
+}
+header ul{
+  display: flex !important;
+}
+header ul li{
+  text-decoration: none;
+  list-style: none;
+  margin: 0vmin 2vmin;
+}
+
+.section-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 400px;
+  background-color: #202020;
+}
+.section-2{
+  width: 100vw;
+  height: 400px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #202020; */
+}
+
+@media only screen and (max-width: 600px){
+  header ul{
+    display: none ;
+  }
+  section{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .section-2{
+    height: 800px;
+    flex-direction: column;
+  }
+}
