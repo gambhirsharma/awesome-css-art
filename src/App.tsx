@@ -15,9 +15,9 @@ function App() {
         </div>
       <div>
         <ul>
-        <li><a href="">GitHub</a></li>
-        <li><a href="">CodePen</a></li>
-        <li><a href="">Twitter</a></li>
+        <li><a href="https://github.com/gambhirsharma/" target="_blank">GitHub</a></li>
+        <li><a href="https://codepen.io/gambhirsharma/" target="_blank">CodePen</a></li>
+        <li><a href="https://twitter.com/gambhir_sharma" target="_blank">Twitter</a></li>
         </ul>
       </div>
     </header>
@@ -27,7 +27,7 @@ function App() {
     </div>
     <div className="section-2">
       <Minion></Minion>
-     <Penguin></Penguin>
+     {/* <Penguin></Penguin> */}
     </div>
     {/* #################################################################### */}
     </div>
