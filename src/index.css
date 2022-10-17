@@ -1,5 +1,3 @@
-
-
 /* This is a global CSS for the whole website */
 
 *,:root{
@@ -69,7 +67,7 @@ header ul li{
 .section-2{
   width: 100vw;
   height: 400px;
-  background-color: yellow;
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
