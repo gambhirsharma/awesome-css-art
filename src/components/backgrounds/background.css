@@ -1,0 +1,20 @@
+.background-circle{
+  height: 400px;
+  width: 50vw;
+  background: repeating-radial-gradient(closest-side at 25px 35px, #ccc 15%, #eee 40%);
+  background-size:60px 60px;
+  }
+
+  .background-cube{
+height: 400px;
+  width: 50vw;
+  background: 
+  linear-gradient(30deg, #bdbdbd 12%, transparent 12.5%, transparent 87%, #bdbdbd 87.5%, #bdbdbd 0), 
+  linear-gradient(150deg, #bdbdbd 12%, transparent 12.5%, transparent 87%, #bdbdbd 87.5%, #bdbdbd 0), 
+  linear-gradient(30deg, #bdbdbd 12%, transparent 12.5%, transparent 87%, #bdbdbd 87.5%, #bdbdbd 0), 
+  linear-gradient(150deg, #bdbdbd 12%, transparent 12.5%, transparent 87%, #bdbdbd 87.5%, #bdbdbd 0), 
+  linear-gradient(60deg, #dbdbdb 25%, transparent 25.5%, transparent 75%, #dbdbdb 75%, #dbdbdb 0), 
+  linear-gradient(60deg, #dbdbdb 25%, transparent 25.5%, transparent 75%, #dbdbdb 75%, #dbdbdb 0), #ccc;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+  background-size: 80px 140px;
+  }
