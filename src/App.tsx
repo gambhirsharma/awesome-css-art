@@ -1,8 +1,10 @@
-
 import Radar from './components/radar/Radar.jsx';
 import Minion from './components/minion/Minion.jsx';
 import Penguin from './components/penguin/Penguin.jsx'
 import Fox from './components/fox/Fox.jsx';
+import Circle from './components/backgrounds/Circle.jsx';
+import Cube from './components/backgrounds/Cube.jsx';
+
 import './index.css';
 import React from 'react';
 
@@ -28,6 +30,10 @@ function App() {
     <div className="section-2">
       <Minion></Minion>
      {/* <Penguin></Penguin> */}
+    </div>
+    <div className="section-2">
+<Circle></Circle>
+<Cube></Cube>
     </div>
     {/* #################################################################### */}
     </div>
