@@ -48,12 +48,12 @@
     --bg-color: #202020;
     --green: #0ef30f;
   
-    /*  Dimentions variables  */
+    /*  Dimensions variables  */
     --canvas-size: 50vmin;
     --outer-circle: 35vmin;
     --main-circle: 30vmin;
   
-    /*  Border variabes  */
+    /*  Border variables  */
     --border-width: 0.4vmin;
     --border: var(--border-width) solid var(--green);
 }
