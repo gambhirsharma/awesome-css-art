@@ -44,18 +44,18 @@
   align-items: center;
   justify-content: center;
 
-    /*  Color variables  */
-    --bg-color: #202020;
-    --green: #0ef30f;
-  
-    /*  Dimensions variables  */
-    --canvas-size: 50vmin;
-    --outer-circle: 35vmin;
-    --main-circle: 30vmin;
-  
-    /*  Border variables  */
-    --border-width: 0.4vmin;
-    --border: var(--border-width) solid var(--green);
+  /*  Color variables  */
+  --bg-color: #202020;
+  --green: #0ef30f;
+
+  /*  Dimensions variables  */
+  --canvas-size: 50vmin;
+  --outer-circle: 35vmin;
+  --main-circle: 30vmin;
+
+  /*  Border variables  */
+  --border-width: 0.4vmin;
+  --border: var(--border-width) solid var(--green);
 }
 .outer-circle {
   position: absolute;
@@ -123,16 +123,16 @@ span {
   background: var(--green);
   transform: rotate(var(--deg));
 }
-span:nth-child(1){
+span:nth-child(1) {
   transform: rotate(0deg);
 }
-span:nth-child(2){
+span:nth-child(2) {
   transform: rotate(45deg);
 }
-span:nth-child(3){
+span:nth-child(3) {
   transform: rotate(90deg);
 }
-span:nth-child(4){
+span:nth-child(4) {
   transform: rotate(135deg);
 }
 
